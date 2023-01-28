@@ -1,0 +1,86 @@
+.header{ text-align: center;
+    width:auto;
+    box-shadow:0px 10px 10px 2px rgba(0, 0, 0, 0.5)inset, 0px 10px 10px 2px rgba(255, 255, 255, 0.5) ; 
+    background-color: green;
+    font-family: Georgia, “Times New Roman”, Times, serif;
+    font-size :xx-large ;
+    font-weight :bold ;
+    padding:30px;
+}
+
+img{width :50px ;height :50px ;
+ box-shadow :0px 10px 10px 2px rgba(0, 0, 0, 0.5) ;
+ top:0%;
+}
+
+.menu{text-align:center;
+     box-shadow:0px 10px 10px 2px rgba(0, 0, 0, 0.5),0px 10px 10px 2px rgba(255, 255, 255, 0.5) inset;
+    background-color:Red;
+    padding:10px;
+    border-radius:0px 0px 10px 10px;
+}
+
+.menu ul li{display: inline-block;
+padding-left: 35px;}
+
+.menu a{text-decoration:none; color : black; font-weight:bold;}
+
+ li{ text-decoration:none; color : black;font-family: Georgia, “Times New Roman”, Times, serif;}
+
+.left{ margin-top:20px;
+text-align:left;
+padding:2px;
+width:100%;
+height:40%;
+font-size:14px;
+line-height:1.5em;
+
+}
+
+.Rubrique{top: 160px;margin-top:20px;
+    text-align:left;
+    padding:2px;
+    width:100%;
+    height:40%;
+    font-size:14px;
+    line-height:1.5em;}
+
+    .Rubrique span{background-color: yellow; padding-left: 70px; padding-right: 70px; padding-top: 10px; padding-bottom: 10px; border-radius: 15px 15px 0px 0px;}
+.Départements {top: 380px;margin-top:20px;
+    text-align:left;
+    padding:2px;
+    width:100%;
+    height:40%;
+    font-size:14px;
+    line-height:1.5em;}
+
+    .Départements span{background-color: yellow; padding-left: 60px; padding-right: 60px; padding-top: 10px; padding-bottom: 10px; border-radius: 15px 15px 0px 0px;}
+    .Rubrique li, .Départements li{text-decoration: none; list-style-type: none; color:blue}
+
+.main{position:absolute;left:17%;top:34%;width:60%;height:70%;
+background-color: Pink;border-radius:10px;padding:10px;
+ overflow:scroll; 
+
+}
+iframe{
+    position:absolute;left:17%;top:34%;width:60%;height:70%;
+background-color: Pink;border-radius:10px;padding:10px;
+ overflow:scroll; 
+}
+
+.right{top:32%;
+     position:absolute;
+     text-align:left;
+     padding:2px;
+    width:19%;
+     height:40%;
+     left:80%;
+    font-size:14px;
+    line-height:1.5em;
+     background-color:Grey;
+     border-radius:10px;
+}
+
+footer{
+    margin-top: 7%;
+}
